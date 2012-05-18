@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>elivewebinars | Hazte webinar</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+  
+  <!-- All in One SEO Pack 1.6.8.1 by Michael Torbert of Semper Fi Web Design[256,320] -->
+  <meta name="description" content="El mejor lugar para convertir tus cursos y seminarios a formato webinar!" />
+  <meta name="keywords" content="seminarios en linea, webinars mexico, instructores en linea, ecommerce development, website development in london, e-commerce,web site design" />
+  <!-- /all in one seo pack -->
+  
+</head>
+<body class="home blog">
+<div id="main">
+<%= render 'shared/menu'%>
+<%= yield %>
+</div>
+</body>
+<%= render 'shared/footer'%>
+</html>

@@ -1,0 +1,30 @@
+#main { width:1000px; margin:0 auto; text-align:left;}
+
+#header {height:95px;}
+
+
+.column-1, .column-2 {float:left;}
+.container {width:100%; overflow:hidden;}
+
+.column-1{ width:434px;}
+.column-2{ width:430px;}
+
+h2, h3, h5, .header-text, h1.pretty, h2 strong {
+  font-family: 'Oxygen', serif;
+  letter-spacing: 1px;
+}
+
+/*h2 b, h3 b, h5 b, .header-text b, h1.pretty b, h2 strong b {*/
+/*  vertical-align:0;*/
+/*  font-size:60%*/
+/*}*/
+
+
+#header .menu li, .slogan div {
+  font-family: 'PT Sans Narrow', serif;
+}
+
+.twtr-hd {
+  display: none;
+}
+
