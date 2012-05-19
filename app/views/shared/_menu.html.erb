@@ -2,12 +2,11 @@
 <div id="header">
 	<div class="top">
 		<ul class="menu">
-      <li><a  href="#" title="Inicio">Inicio</a></li>
-			<li><a  href="#" title="Nosotros">Nosotros</a></li>
-      <li><a  href="#" title="Contact Virvo">Chat en linea</a></li>
-      <li><a  href="#" title="Contact Virvo">Contacto</a></li>
-			<li><a  class="large" href="#" title="Support">Formas de Pago</a></li>
-      <li><a  href="#" title="Contact Virvo">Blog</a></li>
+      <li><a  href="/" title="Inicio">Inicio</a></li>
+			<li><%= link_to "Nosotros" ,us_pages_path%></li>
+      <li><%= link_to "Chat en Linea" ,chat_pages_path, :class => 'large'%></li>
+      <li><%= link_to "Clientes", clients_pages_path%></li>
+			<li><%= link_to "Formas de Pago" , payments_pages_path, :class => 'large'%></li>
 		</ul>
 		<h5 class="logo"><a href="/" title="Hazte webinar">elivewebinars</a></h5>
 	</div>

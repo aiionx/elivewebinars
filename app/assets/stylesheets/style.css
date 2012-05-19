@@ -274,15 +274,20 @@ cite
 
 #header .menu a:hover,#header .menu .active
 {
-  background:url(/assets/menu-item-bg.gif) no-repeat 0 0;
   color:#79ba15;
 }
 
+/* --- Banner --- */
+
 #top_section
 {
-  background:url(/assets/adobe-connect-screens-1.png) bottom no-repeat;
   background-position:510px 0px;
   height: 320px;
+}
+
+#top_section #photos{
+  float:right;
+  margin-right: 110px;
 }
 
 #top_section .slogan
@@ -317,6 +322,8 @@ cite
   color:#adadad;
   letter-spacing:normal;
 }
+
+/*  --- ENDS Banner  --- */
 
 .header-text
 {
@@ -750,6 +757,7 @@ h1.php,h2.php,h3.php,h4.php,h5.php,#footer_tags
   padding: 40px 0px 10px 0px;
   height: 300px;
   margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 

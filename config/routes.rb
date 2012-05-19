@@ -5,6 +5,10 @@ Elivewebinars::Application.routes.draw do
   resource :pages, :only => [] do
     collection do
       get 'home'
+      get 'us'
+      get 'chat'
+      get 'clients'
+      get 'payments'
     end
   end
   
