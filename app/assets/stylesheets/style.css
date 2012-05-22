@@ -83,7 +83,12 @@ h5.logo a
   text-decoration:none;
   display:inline-block;
   background:url(/assets/logo-bg.gif) no-repeat 0 6px;
-  padding-left:58px;
+  padding-left:50px;
+  color: #fff;
+}
+
+h5.logo a span{
+  color: red;
 }
 
 h2
@@ -135,6 +140,7 @@ h3
 
 h3 b
 {
+  text-transform:none;
   vertical-align:0;
   font-size:60%;
   color:#909090;
@@ -154,9 +160,14 @@ h3.header
   padding-bottom:0;
 }
 
-h4
+
+#content_padding h4
 {
-  font-weight:700;
+  font-size:1.8em;
+  line-height:1.25em;
+  color:#222;
+  letter-spacing:0px;
+  padding-bottom:10px;
 }
 
 strong.heading
@@ -445,16 +456,16 @@ ul#menu-image-menu {
   list-style-type:circle;
 }
 
-#content .column-1 li
-{
-  padding-left:2px;
-}
+/*#content .column-1 li*/
+/*{*/
+/*  padding-left:2px;*/
+/*}*/
 
-.column-1 .list li
-{
-  font-size:.85em;
-  line-height:1.4em;
-}
+/*.column-1 .list li*/
+/*{*/
+/*  font-size:.85em;*/
+/*  line-height:1.4em;*/
+/*}*/
 
 .column-2
 {
@@ -494,6 +505,7 @@ ul#menu-image-menu {
   font-size:1.154em;
   line-height:1.6em;
   margin-top:-3px;
+  margin-bottom: 30px;
 }
 
 .text2
@@ -1011,6 +1023,22 @@ ul#tweets li:first-letter{
   background: url('/assets/up-arrow.png') no-repeat center;
   text-align: center;
   cursor: pointer;
+}
+
+/** landing information **/
+
+i.information{
+  font-style: normal;
+}
+
+a.information{
+  font-weight: bold;
+  cursor: pointer;
+  color: #444;
+}
+
+b.information {
+  color: #444;
 }
 
 

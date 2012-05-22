@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   // Change photos from banner
   $('#photos').cycle({
-    fx: 'shuffle',
+    fx: 'fade',
     speed: 4000,
     speedIn: 1000,
     speedOut: 1000,
@@ -13,7 +13,14 @@ $(document).ready(function() {
     }
   });
   
-
+  $('i.information').each(function(){
+    $(this).hide();
+  });
+  
+  $('a.information').click(function(e){
+    $(this).next().toggle();
+    e.preventDefault();
+  });
 
   // Smooth anchor
   $('.question-list a').click(function(e){
@@ -55,7 +62,7 @@ $(document).ready(function() {
     $('.services').animate({
       height: '100px',
       paddingTop: '50px',
-      paddingBottom: '20px'
+      paddingBottom: '60px'
     }, 1000);
     
     var service = $(this).attr('data-service');

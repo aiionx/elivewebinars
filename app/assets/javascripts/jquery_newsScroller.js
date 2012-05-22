@@ -19,7 +19,7 @@
         top: "-=" + c + "px"
       }, d.speed, function () {
         a(this).children("li:first").remove(), a(this).css("top", "0px")
-      }), d.animation == "fade" && (e.children("li:first").fadeOut(d.speed), d.height === 0 && e.children("li:eq(" + d.showItems + ")").hide().fadeIn(d.speed).show()), f.appendTo(e)
+      }), d.animation == "fade" && (e.children("li:first").slideUp(d.speed), d.height === 0 && e.children("li:eq(" + d.showItems + ")").hide().slideUp(d.speed).show()), f.appendTo(e)
     }, moveDown = function (b, c, d) {
       if (d.isPaused) return;
       var e = b.children("ul"),
@@ -28,7 +28,7 @@
         top: 0
       }, d.speed, function () {
         a(this).children("li:last").remove()
-      }), d.animation == "fade" && (d.height === 0 && e.children("li:eq(" + d.showItems + ")").fadeOut(d.speed), e.children("li:first").hide().fadeIn(d.speed).show())
+      }), d.animation == "fade" && (d.height === 0 && e.children("li:eq(" + d.showItems + ")").slideUp(d.speed), e.children("li:first").hide().slideUp(d.speed).show())
     }, this.each(function () {
       var b = a(this),
         c = 0;
