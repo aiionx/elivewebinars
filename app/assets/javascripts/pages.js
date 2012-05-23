@@ -67,15 +67,19 @@ $(document).ready(function() {
     
     var service = $(this).attr('data-service');
     
-    //Hide all except the service (double clicked)
+    //Hide all except the service (clicked twice)
     $('.service').each(function(){
-      if('#' + $(this).attr('id') != service){
-        $(this).slideUp();
+      if('#' + $(this).attr('id') != service && $(this).is(':visible')){
+        $(this).hide("drop", 1000, function(){
+          $(service).fadeIn('fast');
+        });
       }
     });
     
-    //Show the service
-    $(service).slideDown('fast');
+    // Show the service by this method only once
+    if($('#top_section').is(':visible')){
+      $(service).fadeIn('fast');
+    }
     
     // Prevent default behavior
     e.preventDefault();

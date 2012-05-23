@@ -10,3 +10,4 @@ function fromTwitter(data) {
     $('#tweets').append('<li><b>' + results[i]['from_user_name'] + ':</b> ' + results[i]['text'] +'</li>');
   }
 }
+
