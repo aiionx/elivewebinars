@@ -170,6 +170,116 @@ h3.header
   padding-bottom:10px;
 }
 
+#content_padding h4 b{
+  font-size: 60%;
+}
+
+/** Contenidos **/
+
+
+a.wiki{
+  font-size: 18px;
+}
+
+ul.tag li{
+  float: left;
+  margin-left: 15px;
+  padding-right:5px;
+  padding-left:5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #555;
+  display: inline-block;
+}
+
+.share ul.tag li{
+  border: 1.4px dashed #71ac00;
+  background-color: #EBF2EA;
+}
+
+.renta ul.tag li{
+  border: 1.4px dashed #00A99D;
+  background-color: #EAEFEF;
+}
+
+#content ul.list
+{
+  list-style-position:outside;
+  list-style-type:none;
+}
+
+.strong1,.list a b
+{
+  color:#4f5f70;
+}
+
+.list a:hover,.list a:hover b
+{
+  color:#d98c00;
+}
+
+.share .list a:hover,.list a:hover b
+{
+  color: #8DB558;
+}
+
+.renta .list a:hover,.list a:hover b
+{
+  color: #00A99D;
+}
+
+.list a i,.list a:hover i
+{
+  text-indent:40px;
+  display:block;
+  font-style:normal;
+}
+
+.list
+{
+  margin-top:-2px;
+}
+
+.list li
+{
+  padding-bottom:7px;
+}
+
+ul.list a
+{
+  color:#727a82;
+  text-decoration:none;
+}
+
+.list span
+{
+  display:inline-block;
+  width:20px;
+  text-align:center;
+  color:#fff;
+  font-size:1.077em;
+  font-weight:700;
+  margin-right:18px;
+  padding:2px 1px 1px 0;
+}
+
+.webinars .list span{
+  background:url(/assets/list-webinars.gif) no-repeat 0 0;
+}
+
+.incompany .list span{
+  background:url(/assets/list-incompany.png) no-repeat 0 0;
+}
+
+.share .list span{
+  background:url(/assets/list-share.png) no-repeat 0 0;
+}
+
+.renta .list span{
+  background:url(/assets/list-renta.png) no-repeat 0 0;
+}
+
+
 strong.heading
 {
   display:block;
@@ -178,6 +288,34 @@ strong.heading
   font-size:.867em;
   color:#71ac00;
 }
+
+.webinars strong.heading{
+  color: #EF9E0B;
+}
+
+.incompany strong.heading{
+  color: #2E3192;
+}
+
+.share strong.heading{
+  color: #71ac00;
+}
+
+.renta strong.heading{
+  color: #00A99D;
+}
+
+ul.incompany-checked{
+  list-style-image: url(/assets/incompany-checked.gif);
+  margin-left:20px;
+}
+
+ul.incompany-checked li{
+  list-style-image: url(/assets/incompany-checked.gif);
+  margin-bottom: 10px;
+}
+
+/** termina Contenidos **/
 
 cite
 {
@@ -452,7 +590,7 @@ ul#menu-image-menu {
 
 #content ul
 {
-  list-style-position:inside;
+/*  list-style-position:inside;*/
   list-style-type:circle;
 }
 
@@ -531,41 +669,6 @@ ul#menu-image-menu {
   line-height:1.5em;
   color:#71ac00;
   font-style:italic;
-}
-
-#content ul.list
-{
-  list-style-position:outside;
-  list-style-type:none;
-}
-
-.list
-{
-  margin-top:-2px;
-}
-
-.list li
-{
-  padding-bottom:7px;
-}
-
-.list a
-{
-  color:#727a82;
-  text-decoration:none;
-}
-
-.list span
-{
-  display:inline-block;
-  width:20px;
-  text-align:center;
-  color:#fff;
-  font-size:1.077em;
-  background:url(/assets/list-marker-bg.gif) no-repeat 0 0;
-  font-weight:700;
-  margin-right:18px;
-  padding:2px 1px 1px 0;
 }
 
 .block1
@@ -720,27 +823,12 @@ h1.php,h2.php,h3.php,h4.php,h5.php,#footer_tags
   float:right;
 }
 
-.strong1,.list a b
-{
-  color:#4f5f70;
-}
 
 .link a:hover,#PrettyForm a:hover,.PrettyForm a:hover,.PrettyButton a:hover,.PrettyButtonShort,.PrettyButtonShort a:hover
 {
   color:#000;
 }
 
-.list a:hover,.list a:hover b
-{
-  color:#d98c00;
-}
-
-.list a i,.list a:hover i
-{
-  text-indent:40px;
-  display:block;
-  font-style:normal;
-}
 
 #footer .menu a:hover,#footer p a
 {
