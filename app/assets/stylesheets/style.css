@@ -218,19 +218,24 @@ ul.tag li{
   color:#4f5f70;
 }
 
-.list a:hover,.list a:hover b
+.webinars .list a:hover,.webinars .list a:hover b
 {
   color:#d98c00;
 }
 
-.share .list a:hover,.list a:hover b
+.share .list a:hover, .share .list a:hover b
 {
   color: #8DB558;
 }
 
-.renta .list a:hover,.list a:hover b
+.renta .list a:hover,.renta .list a:hover b
 {
   color: #00A99D;
+}
+
+.incompany .list a:hover,.incompany .list a:hover b
+{
+  color: #2E3192;
 }
 
 .list a i,.list a:hover i
@@ -1045,6 +1050,19 @@ ul#tweets li:first-letter{
   margin-bottom: 5px;
   letter-spacing: 1px;
   line-height: 1.4em;
+}
+
+.explanation td{
+  vertical-align:top;
+}
+
+.explanation.no-padding p{
+  padding-right: 30px;
+  text-align: justify
+}
+
+.explanation.no-padding ul{
+  list-style-image: url(/assets/incompany-checked.gif);
 }
 
 .explanation ul {
