@@ -179,6 +179,11 @@ h3.header
 
 a.wiki{
   font-size: 18px;
+  background: url(/assets/webinars-btn.png) no-repeat;
+  padding-right: 14px;
+  padding-left: 14px;
+  padding-top: 11px;
+  color: #444 !important;
 }
 
 ul.tag li{
