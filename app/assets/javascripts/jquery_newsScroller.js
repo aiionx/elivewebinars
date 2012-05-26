@@ -47,7 +47,7 @@
       }), d.height === 0 ? (b.children("ul").children("li").each(function () {
         a(this).height() > c && (c = a(this).height())
       }), b.children("ul").children("li").each(function () {
-//        a(this).height(c)
+        a(this).height(c)
       }), b.height(c * d.showItems)) : b.height(d.height);
       var e = setInterval(function () {
         d.direction == "up" ? moveUp(b, c, d) : moveDown(b, c, d)

@@ -82,7 +82,8 @@ h5.logo a
   color:#fff;
   text-decoration:none;
   display:inline-block;
-  padding-left:50px;
+/*  background:url(/assets/logo-bg.gif) no-repeat 0 6px;*/
+/*  padding-left:50px;*/
   color: #fff;
 }
 
@@ -179,7 +180,7 @@ h3.header
 a.wiki{
   font-size: 18px;
   background: url(/assets/webinars-btn.png) no-repeat;
-  padding-right: 14px;
+  padding-right: 21px;
   padding-left: 14px;
   padding-top: 11px;
   color: #444 !important;
@@ -445,7 +446,7 @@ cite
 
 #top_section #photos{
   float:right;
-  margin-right: 110px;
+  margin-right: 125px;
 }
 
 #top_section .slogan
