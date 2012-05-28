@@ -444,10 +444,10 @@ cite
   height: 320px;
 }
 
-#top_section #photos{
-  float:right;
-  margin-right: 125px;
-}
+/*#top_section #photos{*/
+/*  float:right;*/
+/*  margin-right: 125px;*/
+/*}*/
 
 #top_section .slogan
 {
