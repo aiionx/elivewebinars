@@ -11,13 +11,15 @@
 	   <h4>¿TE QUEDARON DUDAS?</h4>
 	   <ul>
 	     <div class="foot-info">
-	       <label>Asunto:</label>
-	       <input type='text' /><br/>
-	       <label>Email:</label>
-	       <input type='text' /><br/>
-	       <label>Mensaje:</label>
-	       <textarea></textarea>
-	       <a id="submit" href="#">Enviar!</a>
+	       <%= form_tag(contact_notifiers_path) do%>
+	         <label>Asunto:</label>
+	         <input type='text' name='message[subject]' /><br/>
+	         <label>Email:</label>
+	         <input type='text' name='message[email]'/><br/>
+	         <label>Mensaje:</label>
+	         <textarea name='message[content]'></textarea>
+	         <input type="submit" value="Enviar"></input>
+	       <% end %>
 	     </div>
 	   </ul>
 	  </div><!--footerwidget-->

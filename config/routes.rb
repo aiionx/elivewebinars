@@ -20,6 +20,12 @@ Elivewebinars::Application.routes.draw do
       get 'share'
     end
   end
+  
+  resource :notifiers, :only => [] do
+    collection do
+      post 'contact'
+    end
+  end
 
 
   # The priority is based upon order of creation:
