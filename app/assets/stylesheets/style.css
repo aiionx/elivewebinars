@@ -82,8 +82,8 @@ h5.logo a
   color:#fff;
   text-decoration:none;
   display:inline-block;
-/*  background:url(/assets/logo-bg.gif) no-repeat 0 6px;*/
-/*  padding-left:50px;*/
+  background:url(/assets/logo-min.png) no-repeat 0 6px;
+  padding-left:70px;
   color: #fff;
 }
 
@@ -444,10 +444,11 @@ cite
   height: 320px;
 }
 
-/*#top_section #photos{*/
-/*  float:right;*/
-/*  margin-right: 125px;*/
-/*}*/
+#top_section #photos{
+  float:right;
+  margin-right: 100px;
+  margin-top: -26px;
+}
 
 #top_section .slogan
 {
