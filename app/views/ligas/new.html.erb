@@ -1,0 +1,5 @@
+<%= form_tag({:controller => "ligas", :action => "create"}, :method => "post") do %>
+  <%= label_tag(:liga, "liga:") %>
+  <%= text_field_tag(:liga) %>
+  <%= submit_tag("Cambiar liga") %>
+<% end %>

@@ -12,6 +12,8 @@ Elivewebinars::Application.routes.draw do
     end
   end
   
+  resource :ligas, :only => [:new, :create]
+  
   resource :services, :only => [] do
     collection do
       get 'webinars'

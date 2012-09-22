@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
 
   def home
+    @liga = File.open('public/liga.txt').read
   end
   
   def us
