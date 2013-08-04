@@ -56,8 +56,8 @@ module Elivewebinars
       :address              => "smtp.gmail.com",
       :port                 => 587,
       :domain               => 'baci.lindsaar.net',
-      :user_name            => 'madya.ayala',
-      :password             => 'patanabazar',
+      :user_name            => 'daroay',
+      :password             => 'AAlicia666',
       :authentication       => 'plain',
       :enable_starttls_auto => true  }
 
