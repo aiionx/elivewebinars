@@ -57,7 +57,7 @@ module Elivewebinars
       :port                 => 587,
       :domain               => 'baci.lindsaar.net',
       :user_name            => 'madya.ayala',
-      :password             => 'Maday4308',
+      :password             => 'patanabazar',
       :authentication       => 'plain',
       :enable_starttls_auto => true  }
 

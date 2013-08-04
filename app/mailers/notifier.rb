@@ -1,11 +1,10 @@
 class Notifier < ActionMailer::Base
-  default from: "elivewebinars@gmail.com"
+  default from: "madya.ayala@gmail.com"
   
   def contact(message)
     @message = message
     mail(
-      :to => "contacto@elivewebinars.com",
-      :bcc => ["madya.ayala@elivewebinars.com", 'salvador.rocha@elivewebinars.com'],
+      :to => "madya.ayala@elivewebinars.com",
       :subject => @message['subject']
     )
   end

@@ -992,6 +992,16 @@ ul#list-footer-connect span.icon-footer-work{
   background-image: url('/assets/follow_work.png');
 }
 
+ul#list-footer-connect span.icon-footer-phone{
+  background-image: url('/assets/phone_icon.png');
+  background-size:32px 32px;
+}
+
+ul#list-footer-connect span.icon-footer-mail{
+  background-image: url('/assets/email_icon.png');
+  background-size:32px 32px;
+}
+
 ul#tweets {
   color: #555;
   text-align:left;
