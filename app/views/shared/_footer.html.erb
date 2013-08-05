@@ -11,7 +11,6 @@
 	   <h4>¿TE QUEDARON DUDAS?</h4>
 	   <ul>
 	     <div class="foot-info">
-           <% if false %>
 	       <%= form_tag(contact_notifiers_path) do%>
 	         <label>Asunto:</label>
 	         <input type='text' name='message[subject]' /><br/>
@@ -21,7 +20,6 @@
 	         <textarea name='message[content]'></textarea>
 	         <input type="submit" value="Enviar"></input>
 	       <% end %>
-           <% end %>
 	     </div>
 	   </ul>
 	  </div><!--footerwidget-->
